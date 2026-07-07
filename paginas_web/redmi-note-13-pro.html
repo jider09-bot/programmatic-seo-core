@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>¿El Redmi Note 13 Pro 4G sirve para jugar? Análisis Técnico Completo</title>
+    <meta name="description" content="Análisis técnico del Redmi Note 13 Pro 4G para gaming en Colombia. Descubre si sus 8GB de RAM y procesador MediaTek Helio G99 Ultra corren Free Fire sin lag.">
+    <meta name="keywords" content="Redmi Note 13 Pro 4G gaming, Redmi Note 13 Pro 4G free fire, rendimiento Redmi Note 13 Pro 4G, precio Redmi Note 13 Pro 4G colombia">
+    <meta name="robots" content="index, follow">
+    
     <style>
-        
     :root {
         --bg-principal: #0f172a;
         --bg-tarjeta: #1e293b;
@@ -22,7 +26,7 @@
         line-height: 1.6;
         padding: 20px;
     }
-    .container { max-width: 700px; margin: 0 auto; }
+    .container { max-width: 800px; margin: 0 auto; }
     header { text-align: center; padding: 40px 0 20px 0; }
     h1 { font-size: 2.2rem; color: var(--texto-principal); margin-bottom: 10px; line-height: 1.2; }
     .badge-precio { 
@@ -38,6 +42,7 @@
     h2 { font-size: 1.4rem; color: var(--acentos); margin: 35px 0 15px 0; border-bottom: 1px solid var(--bg-tarjeta); padding-bottom: 8px; }
     h3 { font-size: 1.1rem; color: var(--texto-principal); margin: 15px 0 5px 0; display: flex; align-items: center; }
     p { color: var(--texto-secundario); margin-bottom: 15px; text-align: justify; }
+    
     .specs-grid { 
         display: grid; 
         grid-template-columns: repeat(2, 1fr); 
@@ -50,8 +55,9 @@
         border-radius: 12px; 
         border-left: 4px solid var(--acentos);
     }
-    .spec-card span { display: block; font-size: 0.85rem; color: var(--texto-secundario); uppercase; }
+    .spec-card span { display: block; font-size: 0.85rem; color: var(--texto-secundario); text-transform: uppercase; }
     .spec-card strong { font-size: 1.05rem; color: var(--texto-principal); }
+    
     .game-box {
         background: #111827;
         padding: 20px;
@@ -59,16 +65,54 @@
         margin-top: 15px;
         border: 1px solid rgba(255,255,255,0.05);
     }
-    @media (max-width: 480px) {
-        .specs-grid { grid-template-columns: 1fr; }
-        h1 { font-size: 1.8rem; }
+    
+    .grid-portal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .card-portal {
+        background: var(--bg-tarjeta);
+        padding: 25px;
+        border-radius: 16px;
+        border: 1px solid rgba(255,255,255,0.05);
+        transition: transform 0.2s, border-color 0.2s;
+        text-decoration: none;
+        display: block;
+    }
+    .card-portal:hover {
+        transform: translateY(-5px);
+        border-color: var(--acentos);
+    }
+    .card-portal h2 {
+        margin: 0 0 10px 0;
+        border: none;
+        padding: 0;
+        color: var(--texto-principal);
+    }
+    .card-portal .detalles {
+        font-size: 0.9rem;
+        color: var(--texto-secundario);
+    }
+    .btn-leer {
+        margin-top: 15px;
+        color: var(--acentos);
+        font-weight: bold;
+        font-size: 0.95rem;
     }
 
-    </style>
+    @media (max-width: 600px) {
+        .specs-grid, .grid-portal { grid-template-columns: 1fr; }
+        h1 { font-size: 1.8rem; }
+    }
+</style>
 </head>
 <body>
     <div class="container">
         <header>
+            <a href="../index.html" style="color: var(--acentos); text-decoration: none; font-size: 0.9rem; float: left;">← Volver al Inicio</a>
+            <br><br>
             <h1>Análisis de Rendimiento:<br>Redmi Note 13 Pro 4G</h1>
             <div class="badge-precio">Precio aprox: $850,000 COP</div>
         </header>
@@ -86,7 +130,7 @@
         </div>
 
         <h2>Rendimiento Gama Media Balanceado</h2>
-        <p>Equipado con 8 GB de RAM y el chip MediaTek Helio G99 Ultra, el Redmi Note 13 Pro 4G ofrece un comportamiento sólido para el día a día. Sin embargo, para sesiones de juego prolongadas en títulos competitivos, se recomienda cerrar aplicaciones en segundo plano para evitar que la gestión de memoria penalice los fotogramas por segundo (FPS).</p>
+        <p>Equipado con 8 GB de RAM y el chip MediaTek Helio G99 Ultra, el Redmi Note 13 Pro 4G ofrece un comportamiento sólido para el día a día. Sin embargo, para sesiones prolongadas, se recomienda cerrar aplicaciones en segundo plano.</p>
 
         <h2>Comportamiento en Títulos Competitivos</h2>
         <div class="game-box">
@@ -98,7 +142,7 @@
         </div>
 
         <h2>Gestión Térmica Eficiente y Autonomía</h2>
-        <p>Un punto crítico para los jugadores es la temperatura. Este dispositivo cuenta con un sistema de 'Pasiva estándar', lo que mitiga el estrangulamiento térmico (thermal throttling). Además, su batería de 5000 mAh respaldada por una carga rápida de 67W garantiza que podrás regresar a la partida en cuestión de minutos.</p>
+        <p>Este dispositivo cuenta con un sistema de 'Pasiva estándar', lo que mitiga el estrangulamiento térmico (thermal throttling). Además, su batería de 5000 mAh respaldada por una carga rápida de 67W garantiza regresar a la acción rápido.</p>
     </div>
 </body>
 </html>
