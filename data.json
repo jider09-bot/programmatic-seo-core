@@ -1,47 +1,72 @@
 [
   {
     "id": "poco-x6-pro",
-    "marca": "POCO",
-    "modelo": "X6 Pro",
+    "marca": "Xiaomi",
+    "modelo": "POCO X6 Pro",
+    "precio_co": 1400000,
     "procesador": "MediaTek Dimensity 8300 Ultra",
-    "pantalla": "AMOLED de 6.67 pulgadas a 120Hz",
-    "rendimiento_free_fire": "Excelente. Corre en gráficos Ultra y FPS Altos sin caídas de rendimiento.",
-    "rendimiento_clash": "Perfecto. Carga rápida de partidas y animaciones fluidas."
+    "ram": 12,
+    "bateria": 5000,
+    "carga_rapida": 67,
+    "pantalla_hz": 120,
+    "refrigeracion": "Cámara de vapor de grafito ampliada",
+    "rendimiento_free_fire": "Excelente. Permite jugar en gráficos Ultra y FPS Altos sin caídas de frames notables, manteniendo una fluidez competitiva incluso en enfrentamientos masivos.",
+    "rendimiento_clash": "Perfecto. Los tiempos de despliegue de tropas son instantáneos y no presenta lag ni siquiera en partidas de guerra de clanes con hechizos simultáneos."
   },
   {
     "id": "redmi-note-13-pro",
     "marca": "Xiaomi",
     "modelo": "Redmi Note 13 Pro 4G",
+    "precio_co": 850000,
     "procesador": "MediaTek Helio G99 Ultra",
-    "pantalla": "AMOLED de 6.67 pulgadas a 120Hz",
-    "rendimiento_free_fire": "Bueno. Corre de forma fluida en gráficos Estándar/Ultra, pero puede calentar un poco tras horas de juego.",
-    "rendimiento_clash": "Excelente. No presenta ningún tipo de lag en batallas intensas."
+    "ram": 8,
+    "bateria": 5000,
+    "carga_rapida": 67,
+    "pantalla_hz": 120,
+    "refrigeracion": "Pasiva estándar",
+    "rendimiento_free_fire": "Bueno. Corre de forma fluida en gráficos Estándar/Ultra, pero el dispositivo puede calentarse un poco tras un par de horas consecutivas de juego.",
+    "rendimiento_clash": "Excelente. No presenta ningún tipo de retraso o lag en las animaciones durante batallas intensas."
   },
   {
     "id": "samsung-galaxy-a55",
     "marca": "Samsung",
     "modelo": "Galaxy A55 5G",
+    "precio_co": 1500000,
     "procesador": "Exynos 1480",
-    "pantalla": "Super AMOLED de 6.6 pulgadas a 120Hz",
-    "rendimiento_free_fire": "Muy fluido. Mantiene los FPS estables gracias a su buena optimización térmica.",
-    "rendimiento_clash": "Perfecto. Excelente respuesta táctil en la pantalla."
+    "ram": 8,
+    "bateria": 5000,
+    "carga_rapida": 25,
+    "pantalla_hz": 120,
+    "refrigeracion": "Cámara de vapor integrada",
+    "rendimiento_free_fire": "Muy fluido. Mantiene los fotogramas por segundo estables gracias a su excelente optimización térmica y la disipación eficiente del calor.",
+    "rendimiento_clash": "Perfecto. Excelente respuesta táctil en la pantalla, garantizando precisión milimétrica al soltar las tropas."
   },
   {
     "id": "motorola-moto-g84",
     "marca": "Motorola",
     "modelo": "Moto G84 5G",
+    "precio_co": 900000,
     "procesador": "Snapdragon 695",
-    "pantalla": "pOLED de 6.55 pulgadas a 120Hz",
-    "rendimiento_free_fire": "Fluido en gráficos Estándar. En Ultra puede llegar a tener tirones en momentos de mucha acción.",
-    "rendimiento_clash": "Muy fluido. Excelente rendimiento para juegos de cartas y estrategia."
+    "ram": 8,
+    "bateria": 5000,
+    "carga_rapida": 30,
+    "pantalla_hz": 120,
+    "refrigeracion": "Pasiva estándar",
+    "rendimiento_free_fire": "Fluido en gráficos Estándar. En configuraciones Ultra puede llegar a experimentar pequeños tirones cuando hay demasiada acción en la pantalla.",
+    "rendimiento_clash": "Muy fluido. Excelente rendimiento para juegos de estrategia, carga las aldeas rápido y la navegación entre menús es limpia."
   },
   {
     "id": "iphone-13",
     "marca": "Apple",
-    "modelo": "iPhone 13 (Reacondicionado para Gaming)",
+    "modelo": "iPhone 13 (Reacondicionado)",
+    "precio_co": 1900000,
     "procesador": "Apple A15 Bionic",
-    "pantalla": "Super Retina XDR de 6.1 pulgadas",
-    "rendimiento_free_fire": "Perfecto. Rendimiento de gama alta, optimización total y tasas de refresco estables.",
-    "rendimiento_clash": "Instantáneo. Uno de los mejores dispositivos para competitivo por su baja latencia táctil."
+    "ram": 4,
+    "bateria": 3227,
+    "carga_rapida": 20,
+    "pantalla_hz": 60,
+    "refrigeracion": "Estructura interna de aluminio",
+    "rendimiento_free_fire": "Perfecto. Rendimiento de gama alta con una optimización total del sistema operativo y tasas de refresco sumamente estables.",
+    "rendimiento_clash": "Instantáneo. Uno de los mejores dispositivos para juego competitivo debido a su bajísima latencia de entrada táctil."
   }
 ]
