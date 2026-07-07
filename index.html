@@ -13,6 +13,8 @@
         --texto-secundario: #94a3b8;
         --acentos: #38bdf8;
         --exito: #4ade80;
+        --alerta: #f59e0b;
+        --peligro: #ef4444;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { 
@@ -25,8 +27,14 @@
     .container { max-width: 800px; margin: 0 auto; }
     header { text-align: center; padding: 40px 0 20px 0; }
     h1 { font-size: 2.2rem; color: var(--texto-principal); margin-bottom: 10px; line-height: 1.2; }
+    
+    .badges-wrapper {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+    }
     .badge-precio { 
-        display: inline-block; 
         background: rgba(56, 189, 248, 0.1); 
         color: var(--acentos); 
         padding: 6px 16px; 
@@ -34,11 +42,49 @@
         font-weight: bold; 
         font-size: 0.9rem;
     }
+    .badge-calidad { 
+        background: rgba(74, 222, 128, 0.1); 
+        color: var(--exito); 
+        padding: 6px 16px; 
+        border-radius: 20px; 
+        font-weight: bold; 
+        font-size: 0.9rem;
+    }
+    
     .intro { color: var(--texto-secundario); font-size: 1.1rem; margin: 25px 0; text-align: justify; }
     h2 { font-size: 1.4rem; color: var(--acentos); margin: 35px 0 15px 0; border-bottom: 1px solid var(--bg-tarjeta); padding-bottom: 8px; }
-    h3 { font-size: 1.1rem; color: var(--texto-principal); margin: 15px 0 5px 0; display: flex; align-items: center; }
+    h3 { font-size: 1.1rem; color: var(--texto-principal); margin: 15px 0 5px 0; }
     p { color: var(--texto-secundario); margin-bottom: 15px; text-align: justify; }
     
+    /* Sistema de Score Visual */
+    .score-container {
+        background: var(--bg-tarjeta);
+        padding: 25px;
+        border-radius: 16px;
+        margin: 30px 0;
+        border: 1px solid rgba(255,255,255,0.05);
+        text-align: center;
+    }
+    .score-num {
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: var(--exito);
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    .barra-progreso-bg {
+        background: rgba(255,255,255,0.1);
+        height: 12px;
+        border-radius: 6px;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    .barra-progreso-fill {
+        background: linear-gradient(90deg, var(--acentos), var(--exito));
+        height: 100%;
+        border-radius: 6px;
+    }
+
     .specs-grid { 
         display: grid; 
         grid-template-columns: repeat(2, 1fr); 
@@ -90,6 +136,16 @@
     .card-portal .detalles {
         font-size: 0.9rem;
         color: var(--texto-secundario);
+        margin-bottom: 10px;
+    }
+    .card-portal .score-badge-sm {
+        display: inline-block;
+        font-size: 0.8rem;
+        background: rgba(74, 222, 128, 0.1);
+        color: var(--exito);
+        padding: 2px 10px;
+        border-radius: 10px;
+        font-weight: bold;
     }
     .btn-leer {
         margin-top: 15px;
@@ -108,42 +164,47 @@
     <div class="container">
         <header>
             <h1>GamingTech Hub</h1>
-            <p style="color: var(--acentos); font-weight: bold;">¿Qué tan bien rinde tu próximo teléfono?</p>
+            <p style="color: var(--acentos); font-weight: bold;">Evaluación Algorítmica de Hardware Móvil</p>
         </header>
         
-        <p class="intro" style="text-align: center;">Bienvenido al portal de pruebas técnicas. Analizamos el hardware de los smartphones más populares en Colombia para determinar si son capaces de mantener los FPS estables en títulos exigentes.</p>
+        <p class="intro" style="text-align: center;">Bienvenido al portal de pruebas técnicas. Nuestro script analiza matemáticamente los componentes de los smartphones en Colombia para determinar su verdadero rendimiento en juegos competitivos.</p>
         
-        <h2>Dispositivos Analizados Recientemente</h2>
+        <h2>Dispositivos Analizados por el Algoritmo</h2>
         <div class="grid-portal">
             
         <a href="paginas_web/poco-x6-pro.html" class="card-portal">
             <h2>POCO X6 Pro</h2>
             <div class="detalles">Procesador: MediaTek Dimensity 8300 Ultra | RAM: 12GB</div>
-            <div class="btn-leer">Ver Análisis Gaming →</div>
+            <div class="score-badge-sm">Gamer Score: 100/100</div>
+            <div class="btn-leer" style="margin-top: 10px;">Ver Análisis Completo →</div>
         </a>
     
         <a href="paginas_web/redmi-note-13-pro.html" class="card-portal">
             <h2>Redmi Note 13 Pro 4G</h2>
             <div class="detalles">Procesador: MediaTek Helio G99 Ultra | RAM: 8GB</div>
-            <div class="btn-leer">Ver Análisis Gaming →</div>
+            <div class="score-badge-sm">Gamer Score: 72/100</div>
+            <div class="btn-leer" style="margin-top: 10px;">Ver Análisis Completo →</div>
         </a>
     
         <a href="paginas_web/samsung-galaxy-a55.html" class="card-portal">
             <h2>Galaxy A55 5G</h2>
             <div class="detalles">Procesador: Exynos 1480 | RAM: 8GB</div>
-            <div class="btn-leer">Ver Análisis Gaming →</div>
+            <div class="score-badge-sm">Gamer Score: 77/100</div>
+            <div class="btn-leer" style="margin-top: 10px;">Ver Análisis Completo →</div>
         </a>
     
         <a href="paginas_web/motorola-moto-g84.html" class="card-portal">
             <h2>Moto G84 5G</h2>
             <div class="detalles">Procesador: Snapdragon 695 | RAM: 8GB</div>
-            <div class="btn-leer">Ver Análisis Gaming →</div>
+            <div class="score-badge-sm">Gamer Score: 68/100</div>
+            <div class="btn-leer" style="margin-top: 10px;">Ver Análisis Completo →</div>
         </a>
     
         <a href="paginas_web/iphone-13.html" class="card-portal">
             <h2>iPhone 13 (Reacondicionado)</h2>
             <div class="detalles">Procesador: Apple A15 Bionic | RAM: 4GB</div>
-            <div class="btn-leer">Ver Análisis Gaming →</div>
+            <div class="score-badge-sm">Gamer Score: 44/100</div>
+            <div class="btn-leer" style="margin-top: 10px;">Ver Análisis Completo →</div>
         </a>
     
         </div>
