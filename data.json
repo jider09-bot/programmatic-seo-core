@@ -1,0 +1,47 @@
+[
+  {
+    "id": "poco-x6-pro",
+    "marca": "POCO",
+    "modelo": "X6 Pro",
+    "procesador": "MediaTek Dimensity 8300 Ultra",
+    "pantalla": "AMOLED de 6.67 pulgadas a 120Hz",
+    "rendimiento_free_fire": "Excelente. Corre en gráficos Ultra y FPS Altos sin caídas de rendimiento.",
+    "rendimiento_clash": "Perfecto. Carga rápida de partidas y animaciones fluidas."
+  },
+  {
+    "id": "redmi-note-13-pro",
+    "marca": "Xiaomi",
+    "modelo": "Redmi Note 13 Pro 4G",
+    "procesador": "MediaTek Helio G99 Ultra",
+    "pantalla": "AMOLED de 6.67 pulgadas a 120Hz",
+    "rendimiento_free_fire": "Bueno. Corre de forma fluida en gráficos Estándar/Ultra, pero puede calentar un poco tras horas de juego.",
+    "rendimiento_clash": "Excelente. No presenta ningún tipo de lag en batallas intensas."
+  },
+  {
+    "id": "samsung-galaxy-a55",
+    "marca": "Samsung",
+    "modelo": "Galaxy A55 5G",
+    "procesador": "Exynos 1480",
+    "pantalla": "Super AMOLED de 6.6 pulgadas a 120Hz",
+    "rendimiento_free_fire": "Muy fluido. Mantiene los FPS estables gracias a su buena optimización térmica.",
+    "rendimiento_clash": "Perfecto. Excelente respuesta táctil en la pantalla."
+  },
+  {
+    "id": "motorola-moto-g84",
+    "marca": "Motorola",
+    "modelo": "Moto G84 5G",
+    "procesador": "Snapdragon 695",
+    "pantalla": "pOLED de 6.55 pulgadas a 120Hz",
+    "rendimiento_free_fire": "Fluido en gráficos Estándar. En Ultra puede llegar a tener tirones en momentos de mucha acción.",
+    "rendimiento_clash": "Muy fluido. Excelente rendimiento para juegos de cartas y estrategia."
+  },
+  {
+    "id": "iphone-13",
+    "marca": "Apple",
+    "modelo": "iPhone 13 (Reacondicionado para Gaming)",
+    "procesador": "Apple A15 Bionic",
+    "pantalla": "Super Retina XDR de 6.1 pulgadas",
+    "rendimiento_free_fire": "Perfecto. Rendimiento de gama alta, optimización total y tasas de refresco estables.",
+    "rendimiento_clash": "Instantáneo. Uno de los mejores dispositivos para competitivo por su baja latencia táctil."
+  }
+]
